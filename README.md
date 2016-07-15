@@ -5,7 +5,7 @@
 ####本Demo中使用到的一行代码是self.myTableView.estimatedRowHeight=100;就完成了对cell动态高度的计算,demo中通过masonry对Label进行约束,可以自动显示label的内容及对应高度,而且很流畅.
 ####AutoLayout布局中,对于cell中控件较多,结合UIStackView可以非常快速的实现很多复杂功能,让自动布局变的从没这么简单过
 
-##对Cell中各个空间的约束
+##对Cell中各个控件的约束
 <pre><code>
 self.titleLabel=[[UILabel alloc]init];
     self.titleLabel.numberOfLines=0;
